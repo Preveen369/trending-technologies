@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+    cursor: default;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient( 120deg,  rgba(61,245,167,1) 11.2%, rgb(92, 168, 255) 91.1% );
+    color:black;
+    font-weight:bold;
+}
+nav{
+    text-align: center;
+    background-color: #3FD2C7;
+    height:100px;
+    padding: 10px;
+}
+
+h1{
+    display: inline;
+    background-color:#3FD2C7;
+    font-size: xx-large;
+}
+
+.quote{
+    display:inline-block;
+    text-align: center;
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+    width:40%;
+    margin-top: 1%;
+}
+
+p{
+    margin:20px;
+    display: inline-block;
+}
+
+.contents,.list1{
+    display: inline-block;
+    margin:3.5%;
+
+}
+
+.list1 a{
+    text-decoration: none;
+    color:black;
+    cursor:pointer;
+}
+
+.list1 a:hover{
+    color:darkblue;
+}
+
+.h3,.list1,td{
+    background-color: rgb(223, 222, 222);
+    padding:1px;
+}
+
+h2,.subhead{
+    margin:20px;
+}
+
+.image{
+    border-color: #00468b;
+    border-width:5px;
+    border-style:solid;
+    margin:10px;
+    background: white;
+}
+
+iframe{
+    border-color: #00468b;
+    border-width:5px;
+    border-style:solid;
+    margin:10px;
+}
+
+.hlink{
+    color: #00468b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hlink:hover{
+    color:orangered;
+}
+
+hr{
+    width:100%;
+    height:4px;
+    background:#00468b;
+}
+
+.list2{
+    display: inline-block;
+    margin-left:4%;
+    padding:10px;
+    font-size: medium;
+}
+
+.list3{
+    display: inline-block;
+    margin-left:2%;
+    margin-bottom: 2%;
+    padding:10px;
+    font-size: medium;
+}
+
+.list3 a{
+    color:darkblue;
+}
+.references{
+    background-color: #3FD2C7;
+    height: 120px;
+}
+.references a{
+    color:darkblue;
+}
+
+@media only screen and (max-width: 700px){
+    nav,h3,footer{
+        display: block;
+        width:100%;
+        height:70%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding:5px;
+    }
+    table{
+        align-items: baseline;
+        width:100%;
+    }
+
+    .image, iframe{
+        text-align: center;
+        width:90%;
+    }
+    .FAQs,.subhead{
+        width:95%;
+        text-align: center;
+    }
+}
