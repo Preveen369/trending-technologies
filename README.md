@@ -1,7 +1,7 @@
 # 💻 Trending-Technologies – A Tech Trends Showcase
 
-![Platform](https://img.shields.io/badge/Platform-Web-blue.svg)  
-![Tech](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS-orange.svg)  
+![Platform](https://img.shields.io/badge/Platform-Web-blue.svg)
+![Tech](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 **Trending-Technologies** is a static web application built using HTML and CSS. It showcases the latest trends in software development through a visually engaging interface, featuring topics like Artificial Intelligence, Cybersecurity, Blockchain, and more. Hosted on GitHub Pages, the project provides an informative overview of emerging technologies in the software industry.
